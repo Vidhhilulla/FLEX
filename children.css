@@ -1,0 +1,161 @@
+/* 
+.box
+{
+    background-color: red;
+    color: whitesmoke;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+
+.flex-container
+{
+    display: flex;
+    flex-direction:row;
+    height: 100vh;
+    border: 2px solid black;
+    justify-content:flex-start;
+    align-items: start;
+
+}
+
+#box2
+{
+    order: -1;
+}
+#box3
+{
+    order:-2;
+} */
+
+/* Flex -grow */
+/* 
+.box
+{
+    background-color: red;
+    color: whitesmoke;
+    margin: 2px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+
+.flex-container
+{
+    display: flex;
+    flex-direction:row;
+    /* height: 100vh; 
+     border: 2px solid black;
+    justify-content:flex-start;
+    align-items: start;
+    width: 700px;
+
+}  */
+
+/* For equal spaces */
+
+/* #box2
+{
+    order: -1;
+    flex-grow: 1;
+}
+
+#box3
+{
+    order:-2;
+    flex-grow: 1;
+}
+
+#box1
+{
+    flex-grow: 1;
+} */
+
+
+/* For flex shrink the total space is low */
+
+/* .box
+{
+    background-color: red;
+    color: whitesmoke;
+    margin: 2px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+
+.flex-container
+{
+    display: flex;
+    flex-direction:row;
+    
+    /* 
+    
+    border: 2px solid black;
+    justify-content:flex-start;
+    align-items: start;
+    width: 200px;
+
+}
+
+#box2
+{
+    order: -1;
+    flex-shrink: 1;
+}
+
+#box3
+{
+    order:-2;
+    flex-shrink: 1;
+}
+
+#box1
+{
+    flex-shrink: 1;
+} */
+
+
+
+
+
+.box
+{
+    background-color: red;
+    color: whitesmoke;
+    margin: 2px;
+    height: 100px;
+    flex-basis: 100px;
+    width: 200px;
+    /* flex-basis same as width */
+    border: 2px solid black;
+}
+
+
+.flex-container
+{
+    display: flex;
+    flex-direction:column;
+    height: 100vh;
+    border: 2px solid black;
+    justify-content:flex-start;
+    /* align-items: start; */
+    /* width: 100vh; */
+
+}
+
+#box2
+{
+    order: -1;
+    align-self: end;
+}
+
+#box3
+{
+    order:-2;
+}
+
