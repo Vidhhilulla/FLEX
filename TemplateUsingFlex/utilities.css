@@ -1,0 +1,15 @@
+.d-flex
+{
+    display: flex;
+}
+
+.icon
+{
+    width: 30px;
+    height: 25px;
+}
+
+.d-column
+{   
+    flex-direction: column;
+}
