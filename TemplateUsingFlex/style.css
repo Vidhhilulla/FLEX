@@ -20,12 +20,128 @@ body
 }
 
 
-.links
+#links
 {
     justify-content: end;
     
     
 }
+
+/* #objective small
+{
+    margin:10px;
+} */
+
+#objective i
+{   
+    /* display: block; */
+    margin-top: 5px;
+}
+
+/* info starts */
+.info
+{
+    justify-content : center;
+    align-items: center;
+
+}
+
+/* info ends */
+
+
+
+
+/* Main section starts */
+
+.col-auto
+{
+    flex-basis: 50%;
+    /* Can use flex-grow as well */
+    padding: 25px;
+}
+
+.main
+{
+    padding: 0px 20px;
+}
+
+
+
+.Education h3,.Education p
+{
+    margin: 5px;
+}
+
+.Education-footer
+{
+    justify-content: space-between;
+}
+
+.Education > div
+{
+    margin-bottom: 10px;
+}
+
+.TechnicalSkills ul
+{
+    list-style-type:  none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+
+}
+
+
+.TechnicalSkills ul li
+{
+    margin: 0 5px 5px 0px;
+    /* 
+    margin-right:5px;
+    margin-top:5px; */
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.cocirricular ul
+{
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+.cocirricular li
+{
+
+list-style-type: square;
+margin-left: 0px;
+letter-spacing: 1px;
+}
+
+/* Column-2 starts */
+
+
+
+.personalprojects dl dt
+{
+font-size: 20px;
+font-weight: bolder;
+}
+
+.personalprojects dd
+{
+margin:5px 0px 1git st5px 20px;
+line-height: 1.4rem;
+
+
+
+}
+
+/* Column 2 ends */
+
+
+/* Main section ends */
+
 
 
 
