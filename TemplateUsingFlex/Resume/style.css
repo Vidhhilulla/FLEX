@@ -143,6 +143,44 @@ line-height: 1.4rem;
 /* Main section ends */
 
 
+/* Media queries start */
+
+@media screen and (max-width:768px)
+ {
+
+    .main
+    {   
+        
+        flex-wrap: wrap;
+    }
+    .col-auto
+    {
+        flex-basis: 100%;
+    }
+    #objective
+    {
+        flex-basis: 60%;
+        /* width:calc(100vh - 60%); */
+
+    }
+    .header
+    {
+        /* flex-direction: column;
+        align-items: center; */
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+/* 
+    .target
+    {
+        width: 150px;
+    }
+     */
+
+}
+
+
 
 
 

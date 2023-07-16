@@ -1,0 +1,64 @@
+*
+{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body
+{
+     font-family: 'Poppins', sans-serif;
+     background-color: #fff;
+     line-height: 1.6rem;
+}
+
+nav
+{
+     justify-content: space-between;
+     color: #fff;
+     background-color: #333;
+     padding: 1.2rem;
+     opacity: 0.8;
+     align-items: center;
+}
+
+nav ul
+{
+     list-style-type:none;
+}
+
+nav a
+{
+text-decoration: none;
+color: #fff;
+}
+
+nav h1
+{
+     font-size: 55px;
+
+}
+
+nav li
+{
+     margin-right: 20px;
+     text-decoration: underline;
+}
+
+.hero
+{
+     background-image: url(../freelancingwebsite/imagesoffreelancing/hero.webp);
+     background-size: cover;
+     background-position: center center;
+     height: 100vh;
+
+}
+
+.content
+{
+     align-items: center;
+     justify-content: center;
+     height: 100%;
+}
+
+

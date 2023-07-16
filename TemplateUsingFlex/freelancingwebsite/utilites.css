@@ -1,0 +1,27 @@
+.d-flex
+{
+    display: flex;
+}
+
+.text-success
+{
+    color: #28a745;
+}
+
+.btn
+{
+/* border: 2px solid; */
+border-radius: 5px;
+text-decoration: none;
+padding: 10px;
+}
+
+.btn-success
+{
+    background-color: #28a745;
+    color: #fff;
+}
+.d-col
+{
+    flex-direction: column;
+}
