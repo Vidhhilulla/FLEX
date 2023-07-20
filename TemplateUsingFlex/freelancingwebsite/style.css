@@ -61,4 +61,92 @@ nav li
      height: 100%;
 }
 
+.gat{
+     margin: 20px 0 40px 0;
+}
+
+.gat1{
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 10px;
+
+}
+.gat1 h5{
+     color: #839399;
+ 
+ }
+
+ /* .gat2 icons{
+     width: 40px;
+     height: 40px;
+     border-radius: 2px;
+
+ } */
+
+ .gat2{
+     padding: 20px;
+     justify-content: space-evenly;
+ }
+
+ .gat2 .icons
+ {   
+     height: 35px;
+     width: 35px;
+     border-radius: 50%;
+     background-color: #28a745;
+     color: #fff;
+     padding: 7px;
+ }
+
+ .gat h4{
+     padding: 5px;
+ }
+
+.succstories{
+     margin: 20px 0 40px 0;
+}
+
+
+.ss1{
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 10px;
+}
+
+.ss1 h5{
+     color: #839399;
+     
+ }
+
+ .ss2{
+     padding: 20px;
+ }
+
+ .ss2 .part-1
+ {
+     background-color: #ededed;
+     width: 50%;
+     /* display: inline-block; */
+     justify-content: center;
+     align-items: center;
+ }
+
+
+ .ss2 .part-2{
+
+     width: 50%;
+     display: inline-block;
+     background-size:cover;
+ }
+
+
+ .ss2 .twoparts
+ {
+     margin: 10px;
+ }
+ 
+
+
+
+
 
