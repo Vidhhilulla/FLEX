@@ -103,7 +103,7 @@ nav li
  }
 
 .succstories{
-     margin: 20px 0 40px 0;
+     margin: 20px 0 20px 0;
 }
 
 
@@ -119,9 +119,11 @@ nav li
  }
 
  .ss2{
-     padding: 20px;
+     padding: 10px;
  }
 
+
+ /* Text */
  .ss2 .part-1
  {
      background-color: #ededed;
@@ -129,22 +131,182 @@ nav li
      /* display: inline-block; */
      justify-content: center;
      align-items: center;
+     padding:0 50px 0 50px;
+ }
+
+ .ss2 h5{
+     color: #839399;
+     
+
  }
 
 
- .ss2 .part-2{
+ /* Image */
+ .ss2 img{
 
-     width: 50%;
-     display: inline-block;
-     background-size:cover;
+     width: 100%;
+     height: 100%;
+     /* display: inline-block; */
  }
+
+ .ss2 .part-2
+ {
+     width: 40%;
+     /* height: 50%; */
+     /* background-size:contain; */
+
+ }
+
+/* 
+ img{
+     width: 300px;
+     height: 300px;
+     background-size:contain;
+
+ } */
 
 
  .ss2 .twoparts
  {
-     margin: 10px;
+     margin: 20px;
+     justify-content:  center;
  }
+
+
+ .jobforyou{
+     margin: 20px 0 40px 0;
+}
+
+
+ .jfy1{
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 10px;
+}
+
+.jfy1 h5{
+     color: #839399;
+     
+ }
+
+ .jfy2{
+     flex-wrap: wrap;
+     margin: 20px;
+     padding: 10px;
+     justify-content: center;
+ }
+ .jfy2 img{
+     height: 200px;
+     width: 350px;
+     /* border: 2px solid black; */
+     margin: 5px;
+ }
+
+ .ourteam
+ {
+     margin: 20px 0 40px 0;
+ }
+
+ .ot1 h5{
+     color: #839399;
+     
+ }
+
  
+ .ot1{
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 10px;
+}
+
+.ourteam img
+{
+     height: 250px;
+     width: 450px;
+     /* border: 2px solid black; */
+     border-radius:50%;
+     background-size: cover;
+     
+     
+}
+ 
+.ot2
+{
+    justify-content: space-evenly;
+    margin: 20px 10px 20px 10px; 
+}
+.ot2 h4{
+     font-weight: lighter;
+     padding-top: 10px;
+     
+}
+
+.contactus
+{
+    margin: 20px 0 40px 0;
+}
+
+.cu1 h5{
+     color: #839399;
+     
+ }
+
+ 
+ .cu1{
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 10px;
+}
+
+.cu2 img{
+     width: 100%;
+     height: 100%;
+}
+
+.cu2 .imagepart
+{
+     width: 50%;
+}
+
+.cu2{
+     margin: 20px 10px 20px 10px;
+}
+
+.cu2 .formpart
+{
+     background-color: #ededed;
+     width: 50%;
+}
+
+.formpart .container
+{
+     justify-content: center;
+     /* align-items: center; */
+     height: 100vh;
+}
+
+.container .formelement
+{
+     margin: 20px;
+}
+
+.footer
+{
+ background-color: #333;
+ width: 100vw;
+ height: 150px;
+}
+
+.footer .icons{
+     color: #fff;
+     padding: 3px;
+}
+
+.footer p{
+     color: #fff;
+     
+}
+
 
 
 
