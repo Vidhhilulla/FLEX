@@ -51,31 +51,24 @@ nav li
      background-size: cover;
      background-position: center center;
      height: 100vh;
+     color: #ededed;
 
 }
+
 
 .content
 {
      align-items: center;
      justify-content: center;
      height: 100%;
+     /* width: 20%; */
+     
 }
 
-.gat{
-     margin: 20px 0 40px 0;
+.content *
+{
+    margin: 5px;
 }
-
-.gat1{
-     justify-content: center;
-     align-items: center;
-     padding-bottom: 10px;
-
-}
-.gat1 h5{
-     color: #839399;
- 
- }
-
  /* .gat2 icons{
      width: 40px;
      height: 40px;
@@ -86,12 +79,17 @@ nav li
  .gat2{
      padding: 20px;
      justify-content: space-evenly;
+     align-items: start;
+ }
+
+ .content p{
+    text-align: center;
  }
 
  .gat2 .icons
  {   
-     height: 35px;
-     width: 35px;
+     /* height: 35px; */
+     /* width: 35px; */
      border-radius: 50%;
      background-color: #28a745;
      color: #fff;
@@ -105,9 +103,7 @@ nav li
      padding: 5px;
  }
 
-.succstories{
-     margin: 20px 0 20px 0;
-}
+
 
 
 .ss1{
@@ -174,6 +170,14 @@ nav li
 
  }
 
+ .contentofourteam
+ {
+    align-items: center;
+    justify-content: center;
+    /* height: 100%; */
+    width: 20%;
+ }
+
 
  /* Image */
  .ss2 img{
@@ -212,22 +216,6 @@ nav li
  }
 
 
- .jobforyou{
-     margin: 20px 0 40px 0;
-}
-
-
- .jfy1{
-     justify-content: center;
-     align-items: center;
-     padding-bottom: 10px;
-}
-
-.jfy1 h5{
-     color: #839399;
-     
- }
-
  .jfy2{
      flex-wrap: wrap;
      margin: 20px;
@@ -241,30 +229,14 @@ nav li
      margin: 5px;
  }
 
- .ourteam
- {
-     margin: 20px 0 40px 0;
- }
-
- .ot1 h5{
-     color: #839399;
-     
- }
-
- 
- .ot1{
-     justify-content: center;
-     align-items: center;
-     padding-bottom: 10px;
-}
 
 .ourteam img
 {
      height: 250px;
-     width: 450px;
+     width: 100%;
      /* border: 2px solid black; */
      border-radius:50%;
-     background-size: cover;
+     background-size: contain;
      
      
 }
@@ -273,6 +245,7 @@ nav li
 {
     justify-content: space-evenly;
     margin: 20px 10px 20px 10px; 
+    height: 100%;
 }
 .ot2 h4{
      font-weight: lighter;
@@ -280,22 +253,6 @@ nav li
      
 }
 
-.contactus
-{
-    margin: 20px 0 40px 0;
-}
-
-.cu1 h5{
-     color: #839399;
-     
- }
-
- 
- .cu1{
-     justify-content: center;
-     align-items: center;
-     padding-bottom: 10px;
-}
 
 .cu2 img{
      width: 100%;
@@ -321,8 +278,14 @@ nav li
 {
      justify-content: center;
      /* align-items: center; */
-     height: 100vh;
+     /* can remove 100vh */
+     /* height: 100vh; */
 }
+
+
+input{
+    padding: 12px;
+ }
 
 .formpart .btn2
 {
@@ -337,19 +300,32 @@ nav li
 .footer
 {
  background-color: #333;
- width: 100vw;
+ width: 100%;
  height: 150px;
+ justify-content: center;
 }
 
-.footer .icons{
+.footer .icons1{
      color: #fff;
-     padding: 3px;
+     padding: 10px 10px 0 10px;
 }
 
 .footer p{
      color: #fff;
      
 }
+
+.footer .container
+{
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.footer .icons{
+    color: #fff;
+    }
+
+
 
 
 

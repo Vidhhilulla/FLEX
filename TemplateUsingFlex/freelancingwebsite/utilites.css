@@ -25,3 +25,23 @@ padding: 10px;
 {
     flex-direction: column;
 }
+
+
+.commonheading
+{
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+
+}
+.commonheading h5{
+    color: #839399;
+}
+
+/* common margin */
+
+.commonmargin
+{
+    margin: 20px 0 40px 0;
+}
+
