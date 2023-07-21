@@ -96,6 +96,9 @@ nav li
      background-color: #28a745;
      color: #fff;
      padding: 7px;
+     /* display: flex;
+     justify-content: center; */
+     
  }
 
  .gat h4{
@@ -120,6 +123,7 @@ nav li
 
  .ss2{
      padding: 10px;
+     
  }
 
 
@@ -130,8 +134,38 @@ nav li
      width: 50%;
      /* display: inline-block; */
      justify-content: center;
-     align-items: center;
+     /* align-items: center; */
      padding:0 50px 0 50px;
+     /* position: relative; */
+ }
+
+ .ss2 .part-2
+ {
+     padding:20px 0 20px 0;
+     
+ }
+ /* .ss2 .part-1{
+     position: relative;
+ } */
+
+ .ss2 .right
+ {   
+     position: relative;
+     right: 20px;
+     
+     
+     
+ }
+
+ .ss2 .left
+ {
+     position: relative;
+     left: 20px;
+     
+ }
+.btn1
+ {
+     align-self: start;
  }
 
  .ss2 h5{
@@ -146,6 +180,7 @@ nav li
 
      width: 100%;
      height: 100%;
+     border-radius: 5px;
      /* display: inline-block; */
  }
 
@@ -170,6 +205,10 @@ nav li
  {
      margin: 20px;
      justify-content:  center;
+ }
+ .twoparts .start
+ {
+     justify-content: start;
  }
 
 
@@ -283,6 +322,11 @@ nav li
      justify-content: center;
      /* align-items: center; */
      height: 100vh;
+}
+
+.formpart .btn2
+{
+     text-align: center;
 }
 
 .container .formelement
